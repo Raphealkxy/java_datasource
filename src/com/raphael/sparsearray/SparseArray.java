@@ -63,9 +63,8 @@ public class SparseArray {
         //先读取稀疏数组的第一行 根据第一行创建原始的二维数组 比如上面的chessArr2=int[11][11]
         //读取稀疏数组后 几行的数据 并赋给原始的二维数组
 
-        int rows=sparseArr[0][0];
-        int cols =sparseArr[0][1];
-        int newArray[][]=new int[rows][cols];
+
+        int newArray[][]=new int[sparseArr[0][0]][sparseArr[0][1]];
 
         for(int i=1;i<=row;i++){
             newArray[sparseArr[i][0]][sparseArr[i][1]]=sparseArr[i][2];
