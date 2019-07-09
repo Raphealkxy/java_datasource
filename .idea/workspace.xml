@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0bf65fa4-cc1d-47ed-96d5-d126628e10b4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/raphael/queue/ArrayQueueDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/raphael/queue/CircleArrayQueue.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -38,17 +38,32 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/raphael/queue/ArrayQueueDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="81">
-              <caret line="27" column="23" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
+            <state relative-caret-position="127">
+              <caret line="51" column="22" lean-forward="true" selection-start-line="14" selection-start-column="9" selection-end-line="61" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#679#680#0" expanded="true" />
                 <element signature="e#705#706#0" expanded="true" />
                 <element signature="e#766#767#0" expanded="true" />
                 <element signature="e#792#793#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/raphael/queue/CircleArrayQueue.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="322">
+              <caret line="105" column="9" selection-start-line="105" selection-start-column="9" selection-end-line="105" selection-end-column="9" />
+              <folding>
+                <element signature="e#2575#2576#0" expanded="true" />
+                <element signature="e#2635#2636#0" expanded="true" />
+                <element signature="e#2697#2698#0" expanded="true" />
+                <element signature="e#2762#2763#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -109,6 +124,7 @@
         <option value="$PROJECT_DIR$/src/com/raphael/sparsearray/SparseArray.java" />
         <option value="$PROJECT_DIR$/src/com/raphael/sparsearray/IOSparseArray.java" />
         <option value="$PROJECT_DIR$/src/com/raphael/queue/ArrayQueueDemo.java" />
+        <option value="$PROJECT_DIR$/src/com/raphael/queue/CircleArrayQueue.java" />
       </list>
     </option>
   </component>
@@ -151,6 +167,14 @@
               <item name="raphael" type="462c0819:PsiDirectoryNode" />
               <item name="queue" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="java_datasource" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java_datasource" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="raphael" type="462c0819:PsiDirectoryNode" />
+              <item name="queue" type="462c0819:PsiDirectoryNode" />
+              <item name="ArrayQueueDemo.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -160,7 +184,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1562675081174" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1562683318541" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -181,9 +205,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ArrayQueueDemo">
+  <component name="RunManager" selected="Application.CircleArrayQueue">
     <configuration name="ArrayQueueDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.raphael.queue.ArrayQueueDemo" />
+      <module name="java_datasource" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.raphael.queue.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CircleArrayQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.raphael.queue.CircleArrayQueue" />
       <module name="java_datasource" />
       <extension name="coverage">
         <pattern>
@@ -230,6 +267,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CircleArrayQueue" />
         <item itemvalue="Application.ArrayQueueDemo" />
         <item itemvalue="Application.IOSparseArray" />
         <item itemvalue="Application.SparseArray" />
@@ -250,15 +288,16 @@
       <workItem from="1560470948197" duration="15624000" />
       <workItem from="1560650663176" duration="138000" />
       <workItem from="1562117618010" duration="5202000" />
-      <workItem from="1562672767417" duration="2305000" />
+      <workItem from="1562672767417" duration="6847000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23269000" />
+    <option name="totallyTimeSpent" value="27811000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.33579087" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -269,8 +308,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4589443" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.43108505" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.11876833" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.1568915" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -341,14 +380,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/raphael/queue/ArrayQueueDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="27" column="23" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
+        <state relative-caret-position="127">
+          <caret line="51" column="22" lean-forward="true" selection-start-line="14" selection-start-column="9" selection-end-line="61" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#679#680#0" expanded="true" />
             <element signature="e#705#706#0" expanded="true" />
             <element signature="e#766#767#0" expanded="true" />
             <element signature="e#792#793#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/raphael/queue/CircleArrayQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="105" column="9" selection-start-line="105" selection-start-column="9" selection-end-line="105" selection-end-column="9" />
+          <folding>
+            <element signature="e#2575#2576#0" expanded="true" />
+            <element signature="e#2635#2636#0" expanded="true" />
+            <element signature="e#2697#2698#0" expanded="true" />
+            <element signature="e#2762#2763#0" expanded="true" />
           </folding>
         </state>
       </provider>
