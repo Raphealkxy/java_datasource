@@ -43,7 +43,16 @@ public class SingleLinkedListDemo {
         singleLinkedList.del(4);
         singleLinkedList.list();
 
-        System.out.println(singleLinkedList.getLength());
+        System.out.println("有效节点的个数:"+singleLinkedList.getLength());
+
+        //测试一下看看是否得到了倒数第K个节点
+        HeroNode res = singleLinkedList.findLastIndexNode(1);
+        System.out.println("倒数第一个："+res);
+        HeroNode res2 = singleLinkedList.findLastIndexNode(2);
+        System.out.println("倒数第二个："+res2);
+
+        HeroNode res3 = singleLinkedList.findLastIndexNode(3);
+        System.out.println(res3);
     }
 }
 //定义SingleLinkedList管理我们的英雄
@@ -51,6 +60,10 @@ class SingleLinkedList{
     //先初始化一个头节点，头结点不要动，作用是为了表示头结点，不存放数据。
     private HeroNode head = new HeroNode(0,"","");
 
+    //返回头结点
+    public HeroNode getHead(){
+        return head;
+    }
     //添加节点到单项列表
     //思路：当不考虑编号顺序时
     //1.找到当前链表的最后节点
@@ -204,6 +217,25 @@ class SingleLinkedList{
             temp=temp.next;
         }
         return count;
+    }
+
+    //查找单链表中倒数第k个结点
+    public HeroNode findLastIndexNode(int index){
+
+        //判断链表为空，返回null;
+        if(head.next==null){
+            return null;
+        }
+    //    temp=temp.next;不需要 第一个有效 头结点next就是第一个节点
+        //对index做校验
+        if(index<=0||index>this.getLength()){
+            return null;
+        }
+        HeroNode temp =head.next;//第一个元素
+        for(int i=0;i<this.getLength()-index;i++){
+            temp=temp.next;//画图
+        }
+        return temp;
     }
 }
 //定义一个HeroNode，每个Hero对象就是一个节点
