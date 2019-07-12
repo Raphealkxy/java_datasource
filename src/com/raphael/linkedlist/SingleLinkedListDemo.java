@@ -42,6 +42,8 @@ public class SingleLinkedListDemo {
         singleLinkedList.del(1);
         singleLinkedList.del(4);
         singleLinkedList.list();
+
+        System.out.println(singleLinkedList.getLength());
     }
 }
 //定义SingleLinkedList管理我们的英雄
@@ -183,6 +185,25 @@ class SingleLinkedList{
             temp =temp.next;
 
         }
+    }
+
+    //统计链表中有效节点的个数(如果是带头节点的链表，需求不统计头结点）
+    /**
+     * head链表的头结点
+     * @return 返回的是有效节点的个数
+     */
+    public int getLength(){
+        HeroNode temp =head.next;
+        //判断空链表
+        if(head.next==null){
+            return 0;
+        }
+        int count=0;
+        while (temp!=null){
+            count++;
+            temp=temp.next;
+        }
+        return count;
     }
 }
 //定义一个HeroNode，每个Hero对象就是一个节点
