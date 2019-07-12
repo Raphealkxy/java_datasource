@@ -19,18 +19,20 @@ public class SingleLinkedListDemo {
         //创建要给链表
         SingleLinkedList singleLinkedList =new SingleLinkedList();
         //加入
-//        singleLinkedList.add(hero1);
-//        singleLinkedList.add(hero2);
-//        singleLinkedList.add(hero3);
-//        singleLinkedList.add(hero4);
+        singleLinkedList.add(hero1);
+        singleLinkedList.add(hero4);
+        singleLinkedList.add(hero2);
+        singleLinkedList.add(hero3);
 
         //加入按照编号顺序2
+ /*
         singleLinkedList.addByOrder(hero1);
         singleLinkedList.addByOrder(hero4);
         singleLinkedList.addByOrder(hero2);
         singleLinkedList.addByOrder(hero3);
         singleLinkedList.addByOrder(hero3);
         singleLinkedList.list();
+
         System.out.println();
         //测试修改节点的代码
         HeroNode newHeroNode = new HeroNode(2,"小卢","玉麒麟~~");
@@ -53,6 +55,14 @@ public class SingleLinkedListDemo {
 
         HeroNode res3 = singleLinkedList.findLastIndexNode(3);
         System.out.println(res3);
+        */
+        //测试一下单链表的反转
+        System.out.println("原来链表的情况~~");
+        singleLinkedList.list();
+        System.out.println("反转单链表");
+        singleLinkedList.reverse();
+        singleLinkedList.list();
+
     }
 }
 //定义SingleLinkedList管理我们的英雄
@@ -236,6 +246,28 @@ class SingleLinkedList{
             temp=temp.next;//画图
         }
         return temp;
+    }
+
+    //将单链表反转
+    public void reverse(){
+        //如果当前链表为空，或者只有一个节点，无需反转，直接发返回
+        if(head.next==null||head.next==null){
+            return;
+        }
+        //定义一个辅助指针（变量），帮助我们遍历原来的链表
+        HeroNode cur = head.next;
+        HeroNode next = null;//指向当前节点的下一个节点
+        HeroNode reverseHead = new HeroNode(0,"","");
+        //遍历原来的链表，每遍历一个节点，就将其取出，并放在新的链表reversehead的最前端
+        while(cur!=null)//cur=null说明遍历结束
+        {
+            next = cur.next;//先暂时保存当前节点的下一个节点，因为后面需要使用
+            cur.next = reverseHead.next;//将cur的下一个节点指向新的链表的最前端
+            reverseHead.next=cur;//将cur连接到新的链表上
+            cur = next;//让cur后移
+        }
+        //连接head.next指向reverseHead.next 实现单链表反转
+        head.next = reverseHead.next;
     }
 }
 //定义一个HeroNode，每个Hero对象就是一个节点
