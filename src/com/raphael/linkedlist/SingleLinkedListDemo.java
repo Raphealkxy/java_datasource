@@ -1,5 +1,7 @@
 package com.raphael.linkedlist;
 
+import java.util.Stack;
+
 /**
  * @author: create by  Raphaelkxy
  * @version: v1.0
@@ -60,8 +62,12 @@ public class SingleLinkedListDemo {
         System.out.println("原来链表的情况~~");
         singleLinkedList.list();
         System.out.println("反转单链表");
-        singleLinkedList.reverse();
-        singleLinkedList.list();
+//        singleLinkedList.reverse();
+        //测试逆序打印单链表
+        System.out.println("反转单链表，没有破坏链表结构");
+        singleLinkedList.reversePrint();
+     //   singleLinkedList.list();
+
 
     }
 }
@@ -248,6 +254,25 @@ class SingleLinkedList{
         return temp;
     }
 
+    //方式二 利用栈这个数据结构，将各个节点压入到栈中，然后利用栈的先进后出的特点，就实现了逆序打印
+    public void reversePrint(){
+        if(head.next==null){
+            return;//空链表
+        }
+
+        //创建要给一个栈，将各个节点压入栈
+        Stack<HeroNode>stack = new Stack<HeroNode>();
+        HeroNode cur = head.next;
+        //将链表的所有节点压入栈中
+        while(cur!=null){
+            stack.push(cur);
+            cur =cur.next;//cur后移，这样就可以压入下一个节点
+        }
+       //将栈中节点进行打印，pop出栈
+        while(stack.size()>0){
+            System.out.println(stack.pop());//栈的特点是先进后出
+        }
+    }
     //将单链表反转
     public void reverse(){
         //如果当前链表为空，或者只有一个节点，无需反转，直接发返回

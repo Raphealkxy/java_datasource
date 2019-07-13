@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0bf65fa4-cc1d-47ed-96d5-d126628e10b4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/raphael/linkedlist/TestStack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/raphael/linkedlist/SingleLinkedListDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/raphael/linkedlist/SingleLinkedListDemo.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -59,19 +58,22 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/raphael/linkedlist/SingleLinkedListDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="122">
-              <caret line="63" column="32" selection-start-line="63" selection-start-column="32" selection-end-line="63" selection-end-column="32" />
+            <state relative-caret-position="207">
+              <caret line="66" column="42" selection-start-line="66" selection-start-column="42" selection-end-line="66" selection-end-column="42" />
+              <folding>
+                <element signature="e#6717#6727#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/raphael/linkedlist/TestStack.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
+            <state relative-caret-position="320">
               <caret line="19" column="24" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
             </state>
           </provider>
@@ -135,8 +137,8 @@
         <option value="$PROJECT_DIR$/src/com/raphael/queue/ArrayQueueDemo.java" />
         <option value="$PROJECT_DIR$/src/com/raphael/queue/CircleArrayQueue.java" />
         <option value="$PROJECT_DIR$/src/com/raphael/linkedlist/SingleLinkedList.java" />
-        <option value="$PROJECT_DIR$/src/com/raphael/linkedlist/SingleLinkedListDemo.java" />
         <option value="$PROJECT_DIR$/src/com/raphael/linkedlist/TestStack.java" />
+        <option value="$PROJECT_DIR$/src/com/raphael/linkedlist/SingleLinkedListDemo.java" />
       </list>
     </option>
   </component>
@@ -179,6 +181,14 @@
               <item name="raphael" type="462c0819:PsiDirectoryNode" />
               <item name="linkedlist" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="java_datasource" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java_datasource" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="raphael" type="462c0819:PsiDirectoryNode" />
+              <item name="linkedlist" type="462c0819:PsiDirectoryNode" />
+              <item name="SingleLinkedListDemo.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -188,7 +198,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1562984021693" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1562984741252" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -209,7 +219,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TestStack">
+  <component name="RunManager" selected="Application.SingleLinkedListDemo">
     <configuration name="ArrayQueueDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.raphael.queue.ArrayQueueDemo" />
       <module name="java_datasource" />
@@ -277,8 +287,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TestStack" />
         <item itemvalue="Application.SingleLinkedListDemo" />
+        <item itemvalue="Application.TestStack" />
         <item itemvalue="Application.CircleArrayQueue" />
         <item itemvalue="Application.ArrayQueueDemo" />
         <item itemvalue="Application.IOSparseArray" />
@@ -301,12 +311,12 @@
       <workItem from="1562672767417" duration="7475000" />
       <workItem from="1562849892401" duration="6346000" />
       <workItem from="1562935920930" duration="6880000" />
-      <workItem from="1562983778339" duration="239000" />
+      <workItem from="1562983778339" duration="956000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41904000" />
+    <option name="totallyTimeSpent" value="42621000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -321,7 +331,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.37829912" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.06891496" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.26246333" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -408,17 +418,20 @@
     <entry file="file://$PROJECT_DIR$/java_datasource.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/raphael/linkedlist/SingleLinkedListDemo.java">
+    <entry file="file://$PROJECT_DIR$/src/com/raphael/linkedlist/TestStack.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="63" column="32" selection-start-line="63" selection-start-column="32" selection-end-line="63" selection-end-column="32" />
+        <state relative-caret-position="320">
+          <caret line="19" column="24" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/raphael/linkedlist/TestStack.java">
+    <entry file="file://$PROJECT_DIR$/src/com/raphael/linkedlist/SingleLinkedListDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="24" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
+        <state relative-caret-position="207">
+          <caret line="66" column="42" selection-start-line="66" selection-start-column="42" selection-end-line="66" selection-end-column="42" />
+          <folding>
+            <element signature="e#6717#6727#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
