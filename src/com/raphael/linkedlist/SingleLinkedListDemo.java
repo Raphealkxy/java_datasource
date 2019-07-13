@@ -21,20 +21,20 @@ public class SingleLinkedListDemo {
         //创建要给链表
         SingleLinkedList singleLinkedList =new SingleLinkedList();
         //加入
-        singleLinkedList.add(hero1);
-        singleLinkedList.add(hero4);
-        singleLinkedList.add(hero2);
-        singleLinkedList.add(hero3);
+//        singleLinkedList.add(hero1);
+//        singleLinkedList.add(hero4);
+//        singleLinkedList.add(hero2);
+//        singleLinkedList.add(hero3);
 
         //加入按照编号顺序2
- /*
+
         singleLinkedList.addByOrder(hero1);
         singleLinkedList.addByOrder(hero4);
         singleLinkedList.addByOrder(hero2);
         singleLinkedList.addByOrder(hero3);
         singleLinkedList.addByOrder(hero3);
         singleLinkedList.list();
-
+ /*
         System.out.println();
         //测试修改节点的代码
         HeroNode newHeroNode = new HeroNode(2,"小卢","玉麒麟~~");
@@ -68,6 +68,19 @@ public class SingleLinkedListDemo {
         singleLinkedList.reversePrint();
      //   singleLinkedList.list();
 
+        System.out.println("测试合并链表");
+        SingleLinkedList singleLinkedList1 = new SingleLinkedList();
+        HeroNode hero5 = new HeroNode(1,"宋江","及时雨");
+        HeroNode hero6 = new HeroNode(2,"八神","弹射");
+        HeroNode hero7 = new HeroNode(6,"大蛇","猫眼");
+        HeroNode hero8 = new HeroNode(8,"猴子","回手掏");
+        singleLinkedList1.addByOrder(hero5);
+        singleLinkedList1.addByOrder(hero6);
+        singleLinkedList1.addByOrder(hero8);
+        singleLinkedList1.list();
+        singleLinkedList.mergeList(singleLinkedList1);
+        System.out.println("合并后链表");
+        singleLinkedList.list();
 
     }
 }
@@ -276,7 +289,7 @@ class SingleLinkedList{
     //将单链表反转
     public void reverse(){
         //如果当前链表为空，或者只有一个节点，无需反转，直接发返回
-        if(head.next==null||head.next==null){
+        if(head.next==null||head.next.next==null){
             return;
         }
         //定义一个辅助指针（变量），帮助我们遍历原来的链表
@@ -293,6 +306,58 @@ class SingleLinkedList{
         }
         //连接head.next指向reverseHead.next 实现单链表反转
         head.next = reverseHead.next;
+    }
+
+    //合并单链表
+    public void mergeList(SingleLinkedList singleLinkedList1){
+        HeroNode otherhead =singleLinkedList1.getHead();
+        if(head.next==null||otherhead.next==null){
+            if(head.next==null){
+                head.next = otherhead.next;
+                return;
+            }
+            if(otherhead.next==null){
+                return;
+            }
+        }
+        HeroNode temp1 = head.next;//原链表的辅助节点
+        HeroNode temp2 = otherhead.next;//第二个链表的辅助节点
+        HeroNode mergeNode = new HeroNode(0,"","");
+        HeroNode temp3 = null;
+        HeroNode temp4=mergeNode;
+        while(temp1!=null&&temp2!=null){
+            //链表都没有超出长度
+            if(temp1.no>temp2.no){
+                temp3 = temp2;
+                temp2 =temp2.next;
+                //跳出循环
+            }else {
+                temp3 = temp1;
+                temp1 =temp1.next;
+                //跳出循环
+            }
+            temp4.next=temp3;
+            temp3.next=null;
+            temp4 =temp3;
+        }
+        //当原链表提前结束
+        while(temp1==null&&temp2!=null){
+            temp3 = temp2;//将节点拿出 并拼接到节点的最后，将下一个指针指向空
+            temp2 =temp2.next;//剩余链表指针指向下一个节点 //这一点关键
+            temp4.next = temp3;
+            temp3.next =null;
+            temp4=temp3;
+        }
+        //当第二个链表提前结束
+        while(temp2==null&&temp1!=null){
+            temp3 = temp1;;//将节点拿出 并拼接到节点的最后，将下一个指针指向空
+            temp1=temp1.next;//剩余链表指针指向下一个节点 //这一点关键
+            temp4.next = temp3;
+            temp3.next=null;
+            temp4=temp3;
+        }
+        //最后将head头结点下一个节点指向新链表第一个有效节点
+        head.next = mergeNode.next;
     }
 }
 //定义一个HeroNode，每个Hero对象就是一个节点

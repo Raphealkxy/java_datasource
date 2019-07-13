@@ -61,9 +61,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/raphael/linkedlist/SingleLinkedListDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="66" column="42" selection-start-line="66" selection-start-column="42" selection-end-line="66" selection-end-column="42" />
+            <state relative-caret-position="230">
+              <caret line="78" selection-start-line="78" selection-end-line="78" />
               <folding>
+                <element signature="e#2171#2172#0" expanded="true" />
+                <element signature="e#2198#2199#0" expanded="true" />
                 <element signature="e#6717#6727#0" expanded="true" />
               </folding>
             </state>
@@ -198,7 +200,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1562984741252" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1562990043166" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -311,12 +313,12 @@
       <workItem from="1562672767417" duration="7475000" />
       <workItem from="1562849892401" duration="6346000" />
       <workItem from="1562935920930" duration="6880000" />
-      <workItem from="1562983778339" duration="956000" />
+      <workItem from="1562983778339" duration="6252000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42621000" />
+    <option name="totallyTimeSpent" value="47917000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -331,8 +333,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.06891496" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.26246333" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3431085" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.34164223" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -427,9 +429,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/raphael/linkedlist/SingleLinkedListDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="66" column="42" selection-start-line="66" selection-start-column="42" selection-end-line="66" selection-end-column="42" />
+        <state relative-caret-position="230">
+          <caret line="78" selection-start-line="78" selection-end-line="78" />
           <folding>
+            <element signature="e#2171#2172#0" expanded="true" />
+            <element signature="e#2198#2199#0" expanded="true" />
             <element signature="e#6717#6727#0" expanded="true" />
           </folding>
         </state>
