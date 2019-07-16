@@ -9,7 +9,7 @@ package com.raphael.stack;
 public class Calculator {
     public static void main(String[] args) {
             //下面来写表达式的运算
-        String expression = "3+2*9-2";
+        String expression = "3+2*900-2";
         //创建两个栈，数栈，一个符号栈
         ArrayStack2  numStack =new ArrayStack2(10);
         ArrayStack2 operStack = new ArrayStack2(10);
@@ -20,6 +20,7 @@ public class Calculator {
         int oper  = 0;
         int res = 0;
         char ch =' ';//将每次扫描得到char保存到ch
+        String keepNum = "";//用于拼接多位数
         //开始while循环的扫描expression
         while(true){
             //依次得到expression
@@ -50,7 +51,24 @@ public class Calculator {
                 }
             }else {
                 //如果是数 直接入数栈
-                numStack.push(ch-48);//? "1+3" //字符1 十进制对应49 转成数字1 49-48 以此类推
+               // numStack.push(ch-48);//? "1+3" //字符1 十进制对应49 转成数字1 49-48 以此类推
+                //上面处理一位数
+                //当处理多位数时，不能发现是一个数就入栈，因为他可能是多位数
+                //在处理数，需要问expression的表达式的index后，再看一位，如果是数就进行扫描，如果是符号，才入栈
+                //因此需要定义一个变量 字符串 用于拼接
+                 //处理多位数
+                keepNum +=ch;
+                //如果ch已经是expression的最后一位 就直接入栈
+                if(index==expression.length()-1){
+                    numStack.push(Integer.parseInt(keepNum));
+                }else {
+                    //判断下一个字符是不是数字，如果是数字，就继续扫描，如果是运算符，则入栈
+                    if (operStack.isOper(expression.substring(index + 1, index + 2).charAt(0))) {
+                        //如果后一位是运算符，则入栈 keepNum="1" 或者“123”
+                        numStack.push(Integer.parseInt(keepNum));
+                        keepNum = "";//清空 否则数字会越界
+                    }
+                }
             }
             //让index+1 并判断是否扫描到expression最后
             index++;
@@ -58,6 +76,7 @@ public class Calculator {
                 break;
             }
         }
+
 
             //当表达式扫描完毕 就顺序的从数栈和符号栈中pop出相应的数和符号，并运行
         while(true){
@@ -72,7 +91,7 @@ public class Calculator {
             numStack.push(res);
         }
         //将数栈的最后数，pop出
-        System.out.printf("表达式的结果是%s=%d",expression,numStack.pop());
+        System.out.printf("表达式的结果是%s=%d\n",expression,numStack.pop());
     }
 }
 //先创建一个栈，直接使用前面创建好得
