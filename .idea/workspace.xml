@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0bf65fa4-cc1d-47ed-96d5-d126628e10b4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/raphael/recursion/MiGong.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/raphael/recursion/RecursionTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/raphael/stack/PolandNotation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/raphael/stack/PolandNotation.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,31 +19,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/raphael/linkedlist/DoubleLinkedListDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2128">
-              <caret line="114" column="13" selection-start-line="114" selection-start-column="13" selection-end-line="114" selection-end-column="13" />
-              <folding>
-                <element signature="method#update#0;class#DoubleLinkedList#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/raphael/linkedlist/Josepfu.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="494">
-              <caret line="26" column="29" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
-              <folding>
-                <element signature="method#addBoy#0;class#CircleSingleLinkedList#0" />
-                <element signature="method#showBoy#0;class#CircleSingleLinkedList#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/raphael/stack/ArrayStackDemo.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1653">
@@ -54,7 +30,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/raphael/stack/Calculator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="500">
+            <state relative-caret-position="1767">
               <caret line="93" column="41" selection-start-line="93" selection-start-column="41" selection-end-line="93" selection-end-column="41" />
               <folding>
                 <element signature="e#4999#5000#0" expanded="true" />
@@ -64,17 +40,35 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/raphael/stack/PolandNotation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="43" column="54" selection-start-line="43" selection-start-column="54" selection-end-line="43" selection-end-column="54" />
+            <state relative-caret-position="494">
+              <caret line="29" selection-start-line="29" selection-end-line="29" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1261#1269#0" expanded="true" />
-                <element signature="e#770#778#0" expanded="true" />
-                <element signature="e#1368#1376#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/raphael/recursion/RecursionTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="418">
+              <caret line="28" column="39" selection-start-line="28" selection-start-column="39" selection-end-line="28" selection-end-column="39" />
+              <folding>
+                <element signature="method#test#0;class#RecursionTest#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/raphael/recursion/MiGong.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-529">
+              <caret line="42" column="41" lean-forward="true" selection-start-line="42" selection-start-column="41" selection-end-line="42" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -153,14 +147,16 @@
         <option value="$PROJECT_DIR$/src/com/raphael/stack/ArrayStackDemo.java" />
         <option value="$PROJECT_DIR$/src/com/raphael/stack/Calculator.java" />
         <option value="$PROJECT_DIR$/src/com/raphael/stack/PolandNotation.java" />
+        <option value="$PROJECT_DIR$/src/com/raphael/recursion/RecursionTest.java" />
+        <option value="$PROJECT_DIR$/src/com/raphael/recursion/MiGong.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="30" />
-    <option name="y" value="15" />
-    <option name="width" value="980" />
-    <option name="height" value="1040" />
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1938" />
+    <option name="height" value="1048" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -168,7 +164,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -192,20 +187,21 @@
               <item name="java_datasource" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="raphael" type="462c0819:PsiDirectoryNode" />
-              <item name="stack" type="462c0819:PsiDirectoryNode" />
+              <item name="recursion" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563620204495" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563807320743" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/0325/源代码/permission_shiro1110" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -225,7 +221,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.PolandNotation">
+  <component name="RunManager" selected="Application.MiGong">
     <configuration name="ArrayStackDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.raphael.stack.ArrayStackDemo" />
       <module name="java_datasource" />
@@ -252,25 +248,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DoubleLinkedListDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.raphael.linkedlist.DoubleLinkedListDemo" />
+    <configuration name="MiGong" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.raphael.recursion.MiGong" />
       <module name="java_datasource" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.raphael.linkedlist.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Josepfu" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.raphael.linkedlist.Josepfu" />
-      <module name="java_datasource" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.raphael.linkedlist.*" />
+          <option name="PATTERN" value="com.raphael.recursion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -291,13 +274,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RecursionTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.raphael.recursion.RecursionTest" />
+      <module name="java_datasource" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.raphael.recursion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MiGong" />
+        <item itemvalue="Application.RecursionTest" />
         <item itemvalue="Application.PolandNotation" />
         <item itemvalue="Application.Calculator" />
         <item itemvalue="Application.ArrayStackDemo" />
-        <item itemvalue="Application.Josepfu" />
-        <item itemvalue="Application.DoubleLinkedListDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -323,7 +319,9 @@
       <workItem from="1563116023203" duration="653000" />
       <workItem from="1563193218257" duration="2667000" />
       <workItem from="1563284382268" duration="4901000" />
-      <workItem from="1563603747781" duration="7810000" />
+      <workItem from="1563603747781" duration="12237000" />
+      <workItem from="1563711376305" duration="184000" />
+      <workItem from="1563803521122" duration="3843000" />
     </task>
     <task id="LOCAL-00001" summary="逆波兰计算器">
       <created>1563611001682</created>
@@ -336,13 +334,12 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="74300000" />
+    <option name="totallyTimeSpent" value="82754000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15348525" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15683647" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -351,8 +348,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.38123167" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.24926686" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2228739" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.3431085" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -450,6 +447,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/raphael/stack/Calculator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1767">
+          <caret line="93" column="41" selection-start-line="93" selection-start-column="41" selection-end-line="93" selection-end-column="41" />
+          <folding>
+            <element signature="e#4999#5000#0" expanded="true" />
+            <element signature="e#5074#5075#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/raphael/stack/PolandNotation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/raphael/linkedlist/TestStack.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="361">
@@ -484,27 +502,20 @@
     <entry file="file://$PROJECT_DIR$/java_datasource.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/raphael/stack/Calculator.java">
+    <entry file="file://$PROJECT_DIR$/src/com/raphael/recursion/RecursionTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="93" column="41" selection-start-line="93" selection-start-column="41" selection-end-line="93" selection-end-column="41" />
+        <state relative-caret-position="418">
+          <caret line="28" column="39" selection-start-line="28" selection-start-column="39" selection-end-line="28" selection-end-column="39" />
           <folding>
-            <element signature="e#4999#5000#0" expanded="true" />
-            <element signature="e#5074#5075#0" expanded="true" />
+            <element signature="method#test#0;class#RecursionTest#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/raphael/stack/PolandNotation.java">
+    <entry file="file://$PROJECT_DIR$/src/com/raphael/recursion/MiGong.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="43" column="54" selection-start-line="43" selection-start-column="54" selection-end-line="43" selection-end-column="54" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1261#1269#0" expanded="true" />
-            <element signature="e#770#778#0" expanded="true" />
-            <element signature="e#1368#1376#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="-529">
+          <caret line="42" column="41" lean-forward="true" selection-start-line="42" selection-start-column="41" selection-end-line="42" selection-end-column="41" />
         </state>
       </provider>
     </entry>
