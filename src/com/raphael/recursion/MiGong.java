@@ -37,7 +37,8 @@ public class MiGong {
             System.out.println();
         }
         //使用递归来给小球找路
-        setWay(map,1,1);
+        //setWay(map,1,1);
+        setWay2(map,1,1);
         //输出新的地图 小球走过 并标识过得地图
         for (int i = 0; i < 8; i++) {
             for (int j = 0; j < 7; j++) {
@@ -82,6 +83,34 @@ public class MiGong {
                 }else if(setWay(map,i-1,j)){//向右走，走不通，向上走
                     return true;
                 }else if(setWay(map,i,j-1)){//向上走，走不通，向左走
+                    //向左走
+                    return true;
+                }else {
+                    //四个方向都走不同，说明该点是走不通的 ，是死路
+                    map[i][j]=3;//同一个栈里面的相同变量为一个变量
+                    return false;
+                }
+            }else {
+                //如果map[i][j]!=0，可能是1,2,3
+                return false;
+            }
+        }
+    }
+    //修改策略，改成 上 右 下 左
+    public static boolean setWay2(int [][] map,int i,int j){
+        if(map[6][5]==2){//通路已经找到
+            return  true;
+        }else {
+            if(map[i][j]==0){
+                //如果当前这点还没有走过，则按照策略走
+                map[i][j]=2;//先走过，然后往下一步探索
+                if(setWay2(map,i-1,j)){//向上走
+                    return true;
+                }else if(setWay2(map,i,j+1)){//向右走，走不通，向右走
+                    return true;
+                }else if(setWay2(map,i+1,j)){//向下走，走不通，向上走
+                    return true;
+                }else if(setWay2(map,i,j-1)){//左走，走不通，向左走
                     //向左走
                     return true;
                 }else {
