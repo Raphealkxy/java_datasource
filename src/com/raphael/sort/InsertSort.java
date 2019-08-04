@@ -1,6 +1,8 @@
 package com.raphael.sort;
 
+import java.text.SimpleDateFormat;
 import java.util.Arrays;
+import java.util.Date;
 
 /**
  * @author: create by  Raphaelkxy
@@ -13,6 +15,19 @@ public class InsertSort {
     public static void main(String[] args) {
              int arr[] = {101,34,119,1,-1,89};
              insertSort(arr);
+             int arr1[]=new int[80000];
+             Date date = new Date();
+        SimpleDateFormat simpleDateFormat  =new SimpleDateFormat("yyyy-MM-DD HH:mm:ss");
+        String dateString1 = simpleDateFormat.format(date);
+        System.out.println(dateString1);
+             for(int i=0;i<80000;i++){
+                 arr1[i]= (int) (Math.random()*8000000);
+             }
+             insertSort(arr1);
+        Date date2 = new Date();
+        SimpleDateFormat simpleDateFormat1  =new SimpleDateFormat("yyyy-MM-DD HH:mm:ss");
+        String dateString2 = simpleDateFormat.format(date2);
+        System.out.println(dateString2);
         System.out.println(Arrays.toString(arr));
     }
 
@@ -34,12 +49,14 @@ public class InsertSort {
                 arr[insertIndex+1]=arr[insertIndex];
                 insertIndex--;
             }
-            arr[insertIndex+1]=insertVal;
+            if(insertIndex+1!=i) {//如果没有进行位置移动 不需要赋值 元素位置是对的
+                arr[insertIndex + 1] = insertVal;
+            }
             // for(int i=1;i<)
             //  int insertVal =arr[1];
             //  int insertindex =1-1;
-            System.out.println("第"+i+"轮排序后");
-            System.out.println(Arrays.toString(arr));
+//            System.out.println("第"+i+"轮排序后");
+//            System.out.println(Arrays.toString(arr));
         }
 
 
