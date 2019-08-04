@@ -10,21 +10,24 @@ import java.util.Arrays;
  */
 public class BubbleSort {
     public static void main(String[] args) {
-        int arr[] = {3,9,-1,10,-2};
+        int arr[] = {3,9,-1,10,-2,20};
         //为了容易理解，我们把冒泡排序的演变过程
         //第一趟，把最大的排在最后
         int temp=0;//交换的临时变量
-        for(int i=0;i<arr.length-1;i++)
-        for(int j=0;j<arr.length-i-1;j++){
-           //如果前面的数比后面的数大，则交换，如果不大，不交换
-            if(arr[j]>arr[j+1]){
+        for(int i=0;i<arr.length-1;i++){
+        for(int j=0;j<arr.length-i-1;j++) {
+            //如果前面的数比后面的数大，则交换，如果不大，不交换
+            if (arr[j] > arr[j + 1]) {
                 temp = arr[j];
-                arr[j]=arr[j+1];
-                arr[j+1]=temp;
+                arr[j] = arr[j + 1];
+                arr[j + 1] = temp;
             }
         }
+            System.out.println("第"+(i+1)+"趟排序后的数组为");
+            System.out.println(Arrays.toString(arr));
+        }
 
-        System.out.println(Arrays.toString(arr));
+
 
 
         //

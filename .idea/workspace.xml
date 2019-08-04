@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0bf65fa4-cc1d-47ed-96d5-d126628e10b4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/raphael/sort/BubbleSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/raphael/sort/BubbleSortModify.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_datasource/com/raphael/sort/BubbleSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_datasource/com/raphael/sort/BubbleSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/raphael/sort/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/raphael/sort/BubbleSort.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,18 +19,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/raphael/stack/PolandNotation.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="494">
-              <caret line="29" selection-start-line="29" selection-end-line="29" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/raphael/recursion/RecursionTest.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -50,11 +40,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/raphael/sort/BubbleSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+            <state relative-caret-position="81">
+              <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/raphael/sort/BubbleSortModify.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="178">
+              <caret line="30" column="58" selection-start-line="30" selection-start-column="58" selection-end-line="30" selection-end-column="58" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -148,6 +150,7 @@
         <option value="$PROJECT_DIR$/src/com/raphael/recursion/RecursionTest.java" />
         <option value="$PROJECT_DIR$/src/com/raphael/recursion/MiGong.java" />
         <option value="$PROJECT_DIR$/src/com/raphael/sort/BubbleSort.java" />
+        <option value="$PROJECT_DIR$/src/com/raphael/sort/BubbleSortModify.java" />
       </list>
     </option>
   </component>
@@ -199,7 +202,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1564885846777" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1564888139639" />
     <property name="last_opened_file_path" value="$USER_HOME$/Desktop/0325/源代码/permission_shiro1110" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -207,6 +210,11 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.raphael.sort" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -220,7 +228,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BubbleSort">
+  <component name="RunManager" selected="Application.BubbleSortModify">
     <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.raphael.sort.BubbleSort" />
       <module name="java_datasource" />
@@ -234,12 +242,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Calculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.raphael.stack.Calculator" />
+    <configuration name="BubbleSortModify" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.raphael.sort.BubbleSortModify" />
       <module name="java_datasource" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.raphael.stack.*" />
+          <option name="PATTERN" value="com.raphael.sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -288,11 +296,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BubbleSortModify" />
         <item itemvalue="Application.BubbleSort" />
         <item itemvalue="Application.MiGong" />
         <item itemvalue="Application.RecursionTest" />
         <item itemvalue="Application.PolandNotation" />
-        <item itemvalue="Application.Calculator" />
       </list>
     </recent_temporary>
   </component>
@@ -322,7 +330,7 @@
       <workItem from="1563711376305" duration="184000" />
       <workItem from="1563803521122" duration="4991000" />
       <workItem from="1564317471123" duration="749000" />
-      <workItem from="1564793757763" duration="2329000" />
+      <workItem from="1564793757763" duration="4620000" />
     </task>
     <task id="LOCAL-00001" summary="逆波兰计算器">
       <created>1563611001682</created>
@@ -335,7 +343,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="86980000" />
+    <option name="totallyTimeSpent" value="89271000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -350,8 +358,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2228739" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.15249267" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.36510265" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.414956" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -523,8 +531,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/raphael/sort/BubbleSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+        <state relative-caret-position="81">
+          <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/raphael/sort/BubbleSortModify.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="30" column="58" selection-start-line="30" selection-start-column="58" selection-end-line="30" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
