@@ -53,8 +53,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/raphael/sort/BubbleSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="362">
-              <caret line="26" selection-start-line="26" selection-end-line="26" />
+            <state relative-caret-position="216">
+              <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -199,7 +199,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1564885215768" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1564885846777" />
     <property name="last_opened_file_path" value="$USER_HOME$/Desktop/0325/源代码/permission_shiro1110" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -322,7 +322,7 @@
       <workItem from="1563711376305" duration="184000" />
       <workItem from="1563803521122" duration="4991000" />
       <workItem from="1564317471123" duration="749000" />
-      <workItem from="1564793757763" duration="1752000" />
+      <workItem from="1564793757763" duration="2329000" />
     </task>
     <task id="LOCAL-00001" summary="逆波兰计算器">
       <created>1563611001682</created>
@@ -335,7 +335,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="86403000" />
+    <option name="totallyTimeSpent" value="86980000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -350,8 +350,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.2228739" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.06158358" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2228739" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.15249267" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -523,8 +523,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/raphael/sort/BubbleSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="362">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        <state relative-caret-position="216">
+          <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
         </state>
       </provider>
     </entry>
