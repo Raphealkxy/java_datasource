@@ -34,7 +34,7 @@ public class InsertValue {
         if(left>rigtht||findVal<arr[0]||findVal>arr[arr.length-1]){
             return -1;
         }
-        //求出mid
+        //求出mid 自适应查找
         int mid = left+(rigtht-left)*(findVal-arr[left])/(arr[rigtht]-arr[left]);
         int midVal =arr[mid];
         if(midVal>midVal){//说明应该向右边递归查找
