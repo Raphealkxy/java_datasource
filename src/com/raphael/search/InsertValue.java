@@ -29,7 +29,6 @@ public class InsertValue {
      * @return 如果找到，返回对应的下标 如果没有找到，返回-1
      */
     public static int insertValueSearch(int [] arr,int left,int rigtht,int findVal){
-
         System.out.println("查找次数");
         if(left>rigtht||findVal<arr[0]||findVal>arr[arr.length-1]){
             return -1;
